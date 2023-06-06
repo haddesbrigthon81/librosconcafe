@@ -1,0 +1,129 @@
+.contenido{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    display: grid;
+    width: 100%;
+    gap: 4px;
+	align-items: center;
+	justify-content: center;
+    background-image: url("../img/fondos/estantelibros2.jpg");
+    color: aliceblue;
+}
+.contone{
+    grid-template-columns: auto auto;
+    justify-content: center;
+    display: flex;
+    gap: 580px;
+}
+.tableone{
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    text-align: right;
+}
+.tableone .controls, .opcion{
+    width: 100%;
+    background: #20303f;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(71, 71, 78);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+.tableone .botons{
+    width: 100%;
+    background: #105fa8;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(55, 55, 226);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+.cuenta .opt{
+    width: 100%;
+    background: #484363;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+.cuenta{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@media (max-width: 960px){
+	.contone{
+      gap: 60px;
+    }   
+    
+    .tableone .controls, .opcion{
+        padding: 0px;
+        font-size: 16px;
+        height: 30px;
+    } 
+    .tableone .botons, .cuenta .opt{
+        font-size: 16px; 
+    }
+}
+@media (max-width: 590px){
+	.contone{
+        gap: 30px;
+    }   
+    
+    .tableone .controls, .opcion{
+        padding: 0px;
+        font-size: 16px;
+        height: 30px;
+    } 
+    .tableone .botons, .cuenta .opt{
+        font-size: 16px; 
+    }
+}
+@media (max-width: 410px){
+	.contone{
+        gap:0px;
+    }   
+    
+    .tableone .controls, .opcion{
+        padding: 0px;
+        font-size: 16px;
+        height: 30px;
+    } 
+    .tableone .botons, .cuenta .opt{
+        font-size: 16px; 
+    }
+}
+@media (max-width: 375px){
+	.contone{
+        gap:20px;
+    }
+    .contone div, h1{
+        font-size: 20px;
+    }
+    .cuenta img{
+        width: 30px;
+        height: 30px;
+    }
+    .cuenta .opt{
+        height: 30px;
+       font-size: 16px;
+       padding: 0px;
+    }   
+    
+    .tableone .controls, .opcion{
+        padding: 0px;
+        font-size: 16px;
+        height: 30px;
+    } 
+    .tableone .botons, .cuenta .opt{
+        font-size: 16px; 
+    }
+}
+

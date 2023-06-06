@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #bienvenido{
+    background-image: url("../img/fondos/estantelibros.jpg");
+    padding: 10px;
+  }
+
+  
+  .form-register {
+    width: 400px;
+    border: 1px solid rgb(71, 71, 78);
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    justify-content: center;
+   
+  }
+  
+  .form-register h4 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+   align-content: center;
+   text-align: center;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(71, 71, 78);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    height: auto;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    font-family:arial;
+  }
+  @media (max-width:430px){
+    .form-register{
+      width: 300px;
+    }
+  .form-register h4{
+    font-size: 30px;
+  }
+  .form-register .controls{
+    height: 38px;
+  }
+  }
+
+  @media (max-width:330px){
+    .form-register{
+      width: 270px;
+    }
+  .form-register h4{
+    font-size: 20px;
+  }
+  .form-register .controls{
+    height: 28px;
+    font-size: 16px;
+  }
+  .seguridad{
+    font-size: 10px;
+    height: 10px;
+  }
+  }
+
+  @media (max-width:290px){
+    .form-register{
+      width: 100%;
+    }
+  .form-register h4{
+    font-size: 20px;
+  }
+  .form-register .controls{
+    height: 28px;
+    font-size: 15px;
+  }
+  
+  }
+

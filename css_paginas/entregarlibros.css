@@ -1,0 +1,134 @@
+
+/* buscador */
+body{
+    margin:0 ;
+    padding: 0;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+input.src{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 25px;
+    color: #444;
+    border:3px solid #000000;
+
+    background: #fff url("../img/body/busqueda.jpg" ) 
+    no-repeat 9px center;
+    width: 150px;
+    height: 35px;
+    transition: all.5s;
+}
+input.src:hover{
+    width: 250px;
+    background-color: #fff;
+    border-color: #444;
+    box-shadow: 0 0 5px #6dc;
+
+}
+fieldset{
+    border: 2px solid black;;
+}
+
+/* Cajas */
+.contenit{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    display: grid;
+    width: 100%;
+    gap: 4px;
+	align-items: center;
+	justify-content: center;
+    background-image: url("../img/fondos/estantelibros2.jpg");
+    color: #fff;
+}
+.contone{
+    grid-template-columns: auto auto;
+    justify-content: center;
+    display: flex;
+    gap: 580px;
+}
+.contoni{
+    display: flex;
+    gap: 10px;
+}
+.tablel{
+    grid-template-columns: auto;
+    justify-content: center;
+    display: grid;
+}
+td a{
+    color: #fff;
+}
+.cuenta .opt{
+    width: 100%;
+    background: #484363;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+.cuenta{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+@media (max-width: 1124px){
+	.contone{
+      gap: 60px;
+    }   
+}
+@media (max-width: 545px){
+	.contone{
+        gap: 30px;
+    }   
+    .contone div h1{
+        font-size: 25px;
+    }
+    .cuenta img{
+        width: 30px;
+        height: 30px;
+    }
+    .cuenta .opt{
+        height: 30px;
+       font-size: 16px;
+       padding: 0px;
+    }   
+    .contoni div h2{
+        font-size: 16px;
+    }
+    .busq .src{
+        height: 20px;
+    }
+}
+@media (max-width: 390px){
+    .contone{
+        gap: 0px;
+    }   
+    .contone div h1{
+        font-size: 19px;
+    }
+    .cuenta img{
+        width: 30px;
+        height: 30px;
+    }
+    .cuenta .opt{
+        height: 30px;
+       font-size: 11px;
+       padding: 0px;
+    }   
+    .contoni div h2{
+        font-size: 12px;
+    }
+    .busq .src{
+        height: 20px;
+    }
+    .tablel, fieldset {
+        font-size: 10px;
+    }
+}

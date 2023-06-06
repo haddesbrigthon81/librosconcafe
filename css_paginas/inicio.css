@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+#container{
+    background-image: url("../img/fondos/estantelibros2.jpg");
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.article{
+    align-items: center;
+    text-align: center;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+   
+}
+
+.article .parrafo, h2, p{
+ color: white;
+}
+div{
+    border: 2px solid red;
+}
+article{
+    border: 2px solid red;
+}
+@media (max-width:640px){
+    .article .parrafo, h2, p{
+        color: white;
+        font-size: 14px;
+    }
+    #container .article img{
+        width: 150px;
+        height: 315px;
+    }
+	
+}
+
+@media(max-width:445px){
+    .article .parrafo, h2, p{
+        color: white;
+        font-size: 12px;
+    }
+    #container .article img{
+        width: 115px;
+        height: 230px;
+    }
+	
+}
+@media(max-width:320px){
+    .article .parrafo, h2, p{
+        color: white;
+        font-size: 10px;
+    }
+    #container .article img{
+        width: 100px;
+        height: 180px;
+    }
+	
+}
